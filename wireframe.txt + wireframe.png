@@ -1,0 +1,22 @@
+
+wireframe - UM CHURCH - RUBRIC COMPLIANT - ENGLISH
+Live: https://ferreiraedjane108-star.github.io/Um-church/
+
+HEADER <header> sticky top:0 z-index 100 bg #1a3c34
+  Logo images/logo.png alt="UM Church Logo" + Brand
+  Nav <nav aria-label="Main Navigation"> <ul> Home | About | Services | Contact | Find Support
+  Hamburger <button aria-label="Toggle navigation" aria-expanded="false"> JS toggle .active
+
+INDEX - Section 1 Welcome: <section aria-labelledby="welcome"> H1 Welcome + P One Church Multiple Locations + CTA btn-green Find Support -> enquiry.html
+
+INDEX - Section 2 Locations: Badge LOCATIONS H2 123 Faith Road 36px D/32px T/28px M P service times Grid-3 Desktop 3cols Tablet 2cols Mobile 1col Images images/preach.jpg church.jpg bible.jpg 240px D/200px M alt="" Buttons WA wa.me/27796658703 YT youtube.com/@umchurch target _blank rel noopener functional
+
+INDEX - Section 3 Watch Online + Float: aspect-ratio 16/9 bg #000 link YT Float WA aria-label Chat on WhatsApp bottom 20 right 20 bg #25D366 56px circle SVG white path FIXED Float YT aria-label Visit YouTube bottom 20 right 90 bg #FF0000 SVG white path FIXED Mobile 50px
+
+CONTACT - Hero 38vh min 300px img church.jpg alt Church Building overlay rgba(0,0,0,.4) H1 Contact Us Grid-2 Desktop 2cols Mobile 1col Left Card img 220px + Visit Us Address 123 Faith Road Woodstock 7925 Hours Email + Buttons WhatsApp Now wa.me + Send Email mailto Right Card Form aria-label Contact Form required inputs + onsubmit window.open wa.me?text=... _blank
+
+RESPONSIVE RUBRIC: @media max-width 1024px tablet 2cols padding 16px h2 32px @media max-width 768px mobile hamburger block nav-links fixed top60 display none/.active flex column 1col JS hamburger click toggle aria-expanded
+
+FOOTER <footer> © 2025 + TECH: HTML5 semantic CSS3 custom properties --green #1a3c34 --beige #f5efe6 Vanilla JS ACCESSIBILITY alt aria-label rel noopener contrast AAA keyboard SEO meta charset viewport title H1 H2 PERFORMANCE inline critical CSS no framework VALIDATION W3C valid no broken links all functional icons fixed GITHUB relative images/ commit push live works
+
+See wireframe_final.png 
