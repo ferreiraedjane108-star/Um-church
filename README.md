@@ -8,6 +8,15 @@
 **Problem Identified:** Fragmented service-time, location and pastor information relying only on Instagram and WhatsApp
 **Solution:** 5-page foundation website with Google Maps, YouTube, WhatsApp integrations in same palette blue #2E6BC6 + beige #F8F3EB + white
 **GitHub Pages:** https://github.com/ferreiraedjane108-star
+## References
+- MDN Web Docs. (2026). HTML Forms and Inputs. https://developer.mozilla.org/en-US/docs/Web/HTML/Element/form
+- MDN Web Docs. (2026). CSS Variables. https://developer.mozilla.org/en-US/docs/Web/CSS/Using_CSS_custom_properties
+- W3Schools. (2026). CSS Responsive Breakpoints. https://www.w3schools.com/css/css_rwd_mediaqueries.asp
+- Google Fonts - Inter (2026). https://fonts.google.com/specimen/Inter
+- Google Maps Embed API (2026). https://developers.google.com/maps/documentation/embed
+- WhatsApp Click to Chat API - wa.me/27796658703 (2026). https://faq.whatsapp.com/
+- Unsplash/Pexels - Church, Bible, Community images
+- GitHub Pages - Deployment Guide (2026). https://docs.github.com/en/pages
 
 ## Part 1 Feedback Fixes - Changelog Section 
 ### Feedback Received from Part 1:
