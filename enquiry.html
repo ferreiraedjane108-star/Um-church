@@ -1,0 +1,38 @@
+<!DOCTYPE html><html lang="en"><head><meta charset="UTF-8"><meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Enquiry | UM Church Cape Town</title><link rel="stylesheet" href="css/styles.css"></head><body>
+<header><div class="brand"><img src="Images/logo.png" class="logo" alt="Logo"><div><h1>umchurch</h1><span>hope & faith</span></div></div>
+<nav><ul><li><a href="index.html">Home</a></li><li><a href="about.html">About</a></li><li><a href="services.html">Services</a></li><li><a href="enquiry.html" class="active">Enquiry</a></li><li><a href="contact.html">Contact</a></li></ul></nav></header>
+<main>
+<div class="reserve-box">
+<h2 style="text-align:center">Connect With Us</h2>
+<p style="text-align:center;font-size:11px;color:#666;margin-bottom:14px">No more DMs lost on Instagram. Send your enquiry here and we reply within 24 hours.</p>
+<div class="reserve-grid">
+<form class="inputs" id="enqForm">
+<input type="text" id="name" placeholder="Full Name" required>
+<input type="email" id="email" placeholder="Email Address" required>
+<input type="tel" id="whats" placeholder="WhatsApp Number - e.g. +27..." required>
+<select id="topic" required><option value="">Select Topic</option><option>Sunday Service</option><option>Youth Group</option><option>Prayer & Visit</option><option>Volunteering</option></select>
+<textarea class="full" id="msg" rows="5" placeholder="Your Message..." required></textarea>
+<button type="submit" class="btn btn-blue full" style="padding:14px">Send Enquiry via WhatsApp →</button>
+</form>
+<div class="right-col">
+<img src="Images/outreach.jpg" alt="Outreach">
+<div class="info-box"><b>What happens next?</b><ol style="padding-left:14px;margin-top:6px"><li>We receive your message on WhatsApp</li><li>We reply within 24 hours</li><li>We connect you with a pastor</li></ol><p style="margin-top:8px"><b>WhatsApp:</b> +27 79 665 8703</p></div>
+</div>
+</div>
+</div>
+</main>
+<footer>© UM Church Cape Town</footer>
+<script>
+document.getElementById('enqForm').addEventListener('submit',function(e){
+ e.preventDefault();
+ const n=document.getElementById('name').value;
+ const t=document.getElementById('topic').value;
+ const m=document.getElementById('msg').value;
+ const text=`Hello UM Church!%0AName: ${n}%0ATopic: ${t}%0AMessage: ${m}`;
+ window.open(`https://wa.me/27796658703?text=${text}`,'_blank');
+ alert('Thank you '+n+'! Your enquiry was sent to WhatsApp +27 79 665 8703');
+ e.target.reset();
+});
+</script>
+</body></html>
